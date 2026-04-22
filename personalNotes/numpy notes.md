@@ -50,3 +50,35 @@ print(cube)
 # 7  8  9
 # 10 11 12
 ```
+
+**Shortcut Creation Functions**
+```
+#All Zeros
+np.zeros((3,3))
+#[[0. 0. 0.]
+#[0. 0. 0.]
+#[0. 0. 0.]]
+
+#All ones
+np.ones((2,4))
+#[[1. 1. 1. 1.]
+#[1. 1. 1. 1.]]
+
+#Like range - arrange(start,stop,step)
+np.arrange(0, 10, 2) #[0 2 4 6 8]
+np.arrange(1, 6) #[1 2 3 4 5]
+
+#Evenly spaced between two numbers
+np.linspace(0, 1, 5) #[0.   0.25 0.5   0.75 1. ]
+
+#Identity matrix (diagonal 1s,  rest 0s)
+np.eye(3)
+# [[1. 0. 0.]
+# [0. 1. 0.]
+# [0. 0. 1.]]
+
+#Fill with a specific value
+np.full((2,3), 7)
+#[[7 7 7]
+# [7 7 7]]
+```
