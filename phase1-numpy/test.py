@@ -28,4 +28,5 @@ import numpy as np
 # print(np.arange(0, 10, 2))
 # print(np.arange(1, 6))
 # print(np.linspace(0, 1, 5))
-print(np.eye(3, 3))
+# print(np.eye(6, 6))
+# print(np.full((2,3), 5))
